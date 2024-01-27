@@ -4,8 +4,11 @@ print(datetime.datetime.now().year)
 
 d = dict(a = 'ala')
 
-for k, v in d.items():
-    print (k, v)
+# for k, v in d.items():
+#     print (k, v)
+#
+#
+# print(''.isspace())
 
-
-print(''.isspace())
+for val in d.values():
+    print(val)

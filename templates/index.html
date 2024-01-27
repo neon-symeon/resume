@@ -9,7 +9,7 @@
   and then scale up components as necessary using CSS media queries-->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>{{data.profile.first}} {{data.profile.last}}</title>
+  <title>{{data.profile.first}} {{data.profile.last}} - testy</title>
 
   <!-- Bootstrap core CSS -->
   <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +56,7 @@
   <!--  -->
   <div class="container-fluid p-0">
 
-  <!-- main | about -->
+    <!-- main | about -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
         <h1 class="mb-0">{{data.profile.first}} <span class="text-primary">{{data.profile.last}}</span></h1>
@@ -78,7 +78,8 @@
       </div>
     </section>
     <hr class="m-0">
-  <!-- education -->
+
+    <!-- education -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
@@ -103,7 +104,8 @@
       </div>
     </section>
     <hr class="m-0">
-  <!-- skills -->
+
+    <!-- skills -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
@@ -124,12 +126,12 @@
       </div>
     </section>
     <hr class="m-0">
-  <!-- experience -->
+
+    <!-- experience -->
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
-
-        {% for _, item in data.experience.items() %}
+        {% for item in data.experience.values() %}
           <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="resume-content">
               <h3 class="mb-0">{{item.position}}</h3>
@@ -145,44 +147,43 @@
             </div>
           </div>
         {% endfor %}
-
     </section>
     <hr class="m-0">
-<!-- projects -->
+
+    <!-- projects -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
         <h2 class="mb-5">Projects</h2>
         <!-- Begins card -->
         <div class="row">
-          {% for _, item in data.projects.items() %}
-          <div class="col-md-4 mb-5">
-            <div class="card h-100">
-              <img src="static/img/{{ item.img }}" class="card-img-top" alt="{{ item.title }}">
-              <div class="card-body">
-                <h3 class="card-title">{{ item.title }}</h3>
-                <h5 class="card-title">{{ item.subtitle }}</h5>
-                <p class="card-text">{{ item.description }}</p>
-                <p>
-                  {% for tag in item.tags %}
-                  <span class="badge badge-pill badge-secondary">{{ tag }}</span>
-                  {% endfor %}
-                </p>
-              </div>
-              <div class="card-footer">
-                {% if item.github != None %}
-                <a href="{{ item.github }}" class="text-dark" target="_blank">
-                  <i class="fab fa-github-square fa-2x"></i>
-                </a>
-                {% endif %}
-                <a href="{{ item.link }}" class="btn btn-dark float-right" target="_blank">View project</a>
+          {% for item in data.projects.values() %}
+            <div class="col-md-4 mb-5">
+              <div class="card h-100">
+                <img src="static/img/{{item.img}}" class="card-img-top" alt="{{item.title}}">
+                <div class="card-body">
+                  <h3 class="card-title">{{item.title}}</h3>
+                  <h5 class="card-title">{{item.subtitle}}</h5>
+                  <p class="card-text">{{item.description}}</p>
+                  <p>
+                    {% for tag in item.tags %}
+                    <span class="badge badge-pill badge-secondary">{{ tag }}</span>
+                    {% endfor %}
+                  </p>
+                </div>
+                <div class="card-footer">
+                  {% if item.github %}
+                  <a href="{{item.github}}" class="text-dark" target="_blank">
+                    <i class="fab fa-github-square fa-2x"></i>
+                  </a>
+                  {% endif %}
+                  <a href="{{item.link}}" class="btn btn-dark float-right" target="_blank">View project</a>
+                </div>
               </div>
             </div>
-          </div>
           {% endfor %}
         </div>
       </div>
     </section>
-
     <hr class="m-0">
     
     <div class="container">

@@ -18,6 +18,10 @@ venv/
 # Documentation build files
 docs/_build/
 
+# Sandbox
+takietam.py
+templates/idx_testy.html
+
 # IDE files (PyCharm)
 .idea/
 

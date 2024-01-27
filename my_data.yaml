@@ -200,12 +200,10 @@ education:
 # Skills
 tools:
   - python
-  - github
-  - git
   - linux
+  - git
+  - github
   - markdown
-  - google
-  - google-drive
   - slack
   - trello
 
@@ -230,9 +228,79 @@ non_icon_skills:
 projects:
   item1:
     title: My Resume
-    subtitle:
-    description: Resume designed in the color palette of the Python logo.
-    link:
+    description: Resume designed in the color palette of the Python brand.
     github:
     img: project_1.png
     tags: [Flask, Python, Bootstrap, YAML]
+  item2:
+    title: My Resume
+    description: Resume designed in the color palette of the Python brand.
+    github: www
+    img: project_1.png
+    tags: [ Flask, Python, Bootstrap, YAML ]
+  item3:
+    title: My Resume
+    description: Resume designed in the color palette of the Python brand.
+    github: www
+    img: project_1.png
+    tags: [ Flask, Python, Bootstrap, YAML ]
+  item4:
+    title: My Resume
+    description: Resume designed in the color palette of the Python brand.
+    github: www
+    img: project_1.png
+    tags: [ Flask, Python, Bootstrap, YAML ]
+  item5:
+    title: My Resume
+    description: Resume designed in the color palette of the Python brand.
+    github: www
+    img: project_1.png
+    tags: [ Flask, Python, Bootstrap, YAML ]
+  item6:
+    title: My Resume
+    description: Resume designed in the color palette of the Python brand.
+    github: www
+    img: project_1.png
+    tags: [ Flask, Python, Bootstrap, YAML ]
+  item7:
+    title: My Resume
+    description: Resume designed in the color palette of the Python brand.
+    github: www
+    img: project_1.png
+    tags: [ Flask, Python, Bootstrap, YAML ]
+  item8:
+    title: My Resume
+    description: Resume designed in the color palette of the Python brand.
+    github: www
+    img: project_1.png
+    tags: [ Flask, Python, Bootstrap, YAML ]
+  item9:
+    title: My Resume
+    description: Resume designed in the color palette of the Python brand.
+    github: www
+    img: project_1.png
+    tags: [ Flask, Python, Bootstrap, YAML ]
+  item10:
+    title: My Resume
+    description: Resume designed in the color palette of the Python brand.
+    github: www
+    img: project_1.png
+    tags: [ Flask, Python, Bootstrap, YAML ]
+  item11:
+    title: My Resume
+    description: Resume designed in the color palette of the Python brand.
+    github: www
+    img: project_1.png
+    tags: [ Flask, Python, Bootstrap, YAML ]
+  item12:
+    title: My Resume
+    description: Resume designed in the color palette of the Python brand.
+    github: www
+    img: project_1.png
+    tags: [ Flask, Python, Bootstrap, YAML ]
+  item13:
+    title: My Resume
+    description: Resume designed in the color palette of the Python brand.
+    github: www
+    img: project_1.png
+    tags: [ Flask, Python, Bootstrap, YAML ]

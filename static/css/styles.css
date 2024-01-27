@@ -275,13 +275,6 @@ a:hover, a:focus, a:active {
     text-decoration: none;
 }
 
-.super-hover2:hover {
-    background-color: #646464;
-    text-decoration: none;
-    padding: .5rem;
-    border-radius: 25%;
-}
-
 .btn-dark {
   color: #ffffff;
   background-color: #646464;
@@ -289,6 +282,20 @@ a:hover, a:focus, a:active {
 }
 
 .btn-dark:hover {
+  color: #ffde57;
+  background-color: #646464;
+  border-color: 1rem solid #ffde57;
+}
+
+.text-dark {
+  color: #646464 !important;
+}
+
+a.text-dark:hover, a.text-dark:focus {
+  color: #ffde57 !important;
+}
+
+.fab fa-github fa-2x:hoover {
   color: #ffde57;
   background-color: #646464;
   border-color: #ffde57;
