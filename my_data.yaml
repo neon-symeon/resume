@@ -1,0 +1,238 @@
+# Profile
+profile:
+  first : Szymon
+  last : Marek
+  picture: static/img/SM_do_CV.jpeg
+  address: Kraków, ul. Łużycka 42/38
+  phone: (48) 602 24 34 81
+  email: szymon.jan.marek@gmail.com
+  description:
+    I am a Certified Associate Python Programmer, adept Data Analyst, and aspiring Data Scientist. My professional
+    journey began in marketing, where my focus shifted towards precise and mathematical knowledge about how things work.
+    Notably, for UNICEF in 2020, I developed a custom tool in VBA to measure Direct Response from TV campaigns (DRTV
+    campaign attribution), resulting in a doubling of the effectiveness of TV campaigns. During my time at KEINO
+    advertising agency in 2021, I created an Order Management System using DAX (Data Analysis Expressions).
+    
+    In the realm of financial market analysis (2013-2017), I developed tools in MQL (similar to SQL) to gain insights
+    into the rate of price change over specific periods. These tools proved invaluable for traders and analysts in
+    identifying potential buying or selling opportunities.
+    
+    My passion lies in working with data, uncovering insights hidden in-between rows. I firmly believe that
+    everything in the Universe follows the path of least resistance, determined by an underlying and often unseen
+    structure. My goal is to become an expert in discovering this structure and, hopefully, shape it to our advantage.
+
+
+# Social
+social:
+  website:
+  github: https://github.com/neon-symeon/
+  twitter:
+  linkedin-in: https://www.linkedin.com/in/szymon-marek/
+
+
+# Experience
+experience:
+  item1:
+    position: Marketing Director
+    company: Chapter2 Sp. z o.o.
+    industry: investment company, think-tank, parent company of KEINO Sp. z o.o.
+    from: August 2022
+    to: present
+    description: >
+      Implemented website updates for KEINO, while managing SEO and SEM initiatives to enhance online presence.
+      This resulted in a steady growth of search traffic, reaching, from 0 to 300-500 organic visits per month in Q3
+      2023. This work was conducted while overseeing the communication strategy for brands within the group, including
+      KEINO (advertising agency), MIDO (media agency), JOHO (production house), and FCB&theMilkman (the Polish
+      franchise of FCB - the global advertising agency network).
+    link: https://chapter2.pl/
+  item2:
+    position: Managing Director
+    company: KEINO Sp z o.o.
+    industry: advertising agency
+    from: October 2020
+    to: July 2022
+    description: >
+      Developed an 'Order Management System' for the agency using DAX (Data Analysis Expressions). This tool improved
+      workflow and enabled conscious management of services offered to clients. Developed company website for KEINO,
+      from project to deployment, working closely with the software house, as part of the brand's marketing strategy
+      execution.
+    link: https://keinogrupa.pl/
+  item3:
+    position: Strategic Director
+    company: KEINO Sp. z o.o.
+    industry: advertising agency
+    from: July 2018
+    to: September 2020
+    description: >
+      Being responsible for strategic communication solutions for clients, at UNICEF, I developed a custom tool in VBA
+      to measure Direct Response from TV campaigns (DRTV campaign attribution). This initiative not only resulted in
+      a return on investment more than doubling but also positioned UNICEF uniquely. According to competitive research,
+      UNICEF was the sole charitable organization airing ads on TV with precisely selected commercials having
+      the highest conversion potential.
+    link: https://keinogrupa.pl/
+  item4:
+    position: trader, financial market analyst
+    company: Szymon Marek
+    industry: trading sector, market commentator
+    from: April 2006
+    to: December 2017
+    description: >
+      I decided to venture into the investment market. During this period, I began publishing my stock market
+      commentaries on one of the most popular investment websites stooq.pl (2011-2016). In the 2015 interview with
+      money.pl, I presented correlations between planetary cycles and stock market tops and bottoms. This episode
+      involved exploring statistical relationships between these two data sets, a topic shrouded in mystery in Poland
+      but with an established presence in the Anglo-Saxon world. Furthermore, I engaged in the creation and programming
+      of proprietary analytical tools in MQL (similar to C++), including oscillators and trading robots. Additionally,
+      I developed analysis tools in Visual Basic for Excel.
+  item5:
+    position: Managing Director
+    company: ZenithOptimedia Sp. z o.o.
+    industry: >
+      media house, a part of Publicis Groupe, leading global communication holding listed both on French and US
+      stock market exchange
+    from: April 2004
+    to: March 2006
+    description: >
+      By fostering relationships with key clients and actively participating in the formulation of communication
+      strategies, I contributed to the development of research initiatives. This effort resulted in a notable
+      achievement – in 2005, I presented to over 50 AGB regional directors in Lausanne, Switzerland, focusing on the
+      utilization of behavioral target groups, a fusion of TGI and Telemetric surveys.
+    link: https://www.zenithmedia.pl/
+  item6:
+    position: Media Planning Director
+    company: ZenithOptimedia Sp. z o.o.
+    industry: >
+      media house, a part of Publicis Groupe, leading global communication holding listed both on French and US
+      stock market exchange
+    from: October 2000
+    to: July 2003
+    description: >
+      Planned and executed comprehensive media campaigns for global and Polish brands, including HP, L'Oreal Group, S.C.
+      Johnson, PEKAO S.A., OBI, Edipresse, Radio Zet, and others. Pioneered a continuous (weekly) tracking study of
+      advertising effectiveness in the Polish market, optimizing ad campaign intensity and improving ROI. Recognized
+      by Giorgio Armani himself for innovative strategies that exceeded sales expectations for the "Emporio" fragrance
+      line in Poland, despite a modest advertising budget. Additionally, I established the IT department, focusing on
+      automating tools within the agency's workflow.
+    link: https://www.zenithmedia.pl/
+  item7:
+    position: Media Research & Development Direcor
+    company: Euromedia Sp. z o.o.
+    industry: advertising agency and radio broker, a part of RadioZet / EuroZet holding
+    from: July 1996
+    to: September 2000
+    description: >
+      I delivered comprehensive research and consulting services vital to EUROZET's board during the acquisition of
+      local radio stations. My responsibilities included conducting in-depth media consumption analyses and profiling
+      target groups through TGI, SMG/KRC surveys, and telemetric research. Collaborating closely with advertising
+      agencies, we crafted effective communication strategies and plans. I played a pivotal role in presenting
+      successful media strategies, fostering strong relationships between the company and clients.
+    link: https://www.eurozet.pl/
+  item8:
+    position: Marketing Specialist / Manager
+    company: TRAS-OKNA S.A.
+    industry: window producer in the construction sector
+    from: October 1994 tbc
+    to: June 1996 tbc
+    description: >
+      I established the marketing department in a dynamically growing, young company specializing in modern PVC windows
+      production. We initiated the first consumer research, launched initial advertising campaigns, and implemented
+      an in-house quality control program, accompanied by a simple tool I developed in Excel using VBA to gather data
+      on the quality of window installation services. This program also included a reward system for the best
+      installation teams, prioritizing them in subsequent contracts. During my tenure, TRAS went public on the Warsaw
+      Stock Exchange (GPW) and obtained ISO quality certification. My work in Krakow resonated with colleagues in
+      Warsaw, propelling me into the broader realm of marketing and advertising.
+
+
+# Education
+education:
+  item1:
+    institution: Python Institute
+    program: Python Professional
+    description: >
+      This course is currently preparing me for the PCPP1 - Certified Professional in Python Programming 1 certification
+      exam, which I plan to take and pass this semester.
+    from: January 2024
+    to: now
+  item2:
+    institution: Python Institute
+    program: Python Essentials
+    description:  >
+      This comprehensive course equipped me for the PCAP Certified Associate in Python Programming certification exam
+      (PCAP-31-03), which I successfully passed in January 2024.
+    from: July 2023
+    to: January 2024
+  item3:
+    institution: Software Development Academy
+    program: Data Science
+    description: >
+      This course opened doors for me into the role of a data scientist, enlightening me on crucial aspects of this
+      field. The curriculum covered various aspects, including working with data, machine learning, deep learning,
+      statistics, probability, and incorporating the Scrum philosophy. Conducted in a workshop format, the course was
+      thoughtfully designed and delivered to offer practical insights into the field. It holds entry number
+      2.22/00104/2015 in the RiS - National Register of Training Institutions.
+    from: October 2022
+    to: March 2023
+  item4:
+    institution: Krakow University of Economics
+    program: Marketing and Management
+    description: >
+      Engaging in these part-time studies allowed me to seamlessly balance work and education. Despite the
+      challenges, I excelled in the diverse curriculum, which encompassed various facets of contemporary business
+      knowledge, such as finance, law, taxation, and advanced techniques in data analysis, marketing, negotiation,
+      planning, controlling, human resource management, and innovation management. The flexibility of the program
+      enabled me to embark on a career as a marketer even before completing my studies, showcasing the immediate
+      impact and relevance of the curriculum to real-world scenarios. I successfully completed these studies,
+      earning a bachelor's degree with an excellent outcome in 2001.
+    from: October 1993
+    to: March 1998
+  item5:
+    institution: Jagiellonian University in Krakow
+    program: Computer Science - Faculty of Mathematics and Computer Science
+    description: >
+      These were my initial studies at Jagiellonian University in Krakow, where I pursued my true interests
+      in computer science. Unfortunately, this academic journey was short-lived as life circumstances compelled me to
+      make pragmatic choices. Instead of continuing my studies, I had to allocate time for self-sustainment. This shift
+      led me to transition to economics in the nearest possible future.
+    from: October 1991
+    to: February 1992
+
+
+# Skills
+tools:
+  - python
+  - github
+  - git
+  - linux
+  - markdown
+  - google
+  - google-drive
+  - slack
+  - trello
+
+non_icon_skills:
+  - Pandas
+  - SymPy
+  - Numpy
+  - Matplotlib
+  - Seaborn
+  - Scikit-learn
+  - TensorFlow
+  - OpenCV
+  - Flask & Django
+  - MySQL
+  - DAX
+  - VBA
+  - MQL
+  - Jupyter Nobebook & Colab
+
+
+# Projects section
+projects:
+  item1:
+    title: My Resume
+    subtitle:
+    description: Resume designed in the color palette of the Python logo.
+    link:
+    github:
+    img: project_1.png
+    tags: [Flask, Python, Bootstrap, YAML]

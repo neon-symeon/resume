@@ -1,0 +1,26 @@
+# Temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Configuration files
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.venv
+
+# Documentation build files
+docs/_build/
+
+# IDE files (PyCharm)
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
