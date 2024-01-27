@@ -272,6 +272,24 @@ a:hover, a:focus, a:active {
 
 .super-hover:hover {
     background-color: #646464;
-    background-radius: 25%;
     text-decoration: none;
+}
+
+.super-hover2:hover {
+    background-color: #646464;
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: 25%;
+}
+
+.btn-dark {
+  color: #ffffff;
+  background-color: #646464;
+  border-color: #646464;
+}
+
+.btn-dark:hover {
+  color: #ffde57;
+  background-color: #646464;
+  border-color: #ffde57;
 }
