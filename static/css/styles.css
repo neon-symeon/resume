@@ -273,4 +273,5 @@ a:hover, a:focus, a:active {
 .super-hover:hover {
     background-color: #646464;
     background-radius: 25%;
+    text-decoration: none;
 }
