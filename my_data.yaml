@@ -227,80 +227,32 @@ non_icon_skills:
 # Projects section
 projects:
   item1:
+    img: project_resume.png
     title: My Resume
-    description: This resume designed in the color palette of the Python brand.
-    github:
-    img: project_1.png
+    description: This resume is designed in the color palette of the Python brand.
+    github: https://github.com/neon-symeon/resume.git
     tags: [Python, Flask, Bootstrap, YAML]
+    button_view_project: False
+
   item2:
-    title: My Resume
-    description: Resume designed in the color palette of the Python brand.
-    github: www
-    img: project_1.png
-    tags: [ Flask, Python, Bootstrap, YAML ]
-  item3:
-    title: My Resume
-    description: Resume designed in the color palette of the Python brand.
-    github: www
-    img: project_1.png
-    tags: [ Flask, Python, Bootstrap, YAML ]
-  item4:
-    title: My Resume
-    description: Resume designed in the color palette of the Python brand.
-    github: www
-    img: project_1.png
-    tags: [ Flask, Python, Bootstrap, YAML ]
-  item5:
-    title: My Resume
-    description: Resume designed in the color palette of the Python brand.
-    github: www
-    img: project_1.png
-    tags: [ Flask, Python, Bootstrap, YAML ]
-  item6:
-    title: My Resume
-    description: Resume designed in the color palette of the Python brand.
-    github: www
-    img: project_1.png
-    tags: [ Flask, Python, Bootstrap, YAML ]
-  item7:
-    title: My Resume
-    description: Resume designed in the color palette of the Python brand.
-    github: www
-    img: project_1.png
-    tags: [ Flask, Python, Bootstrap, YAML ]
-  item8:
-    title: My Resume
-    description: Resume designed in the color palette of the Python brand.
-    github: www
-    img: project_1.png
-    tags: [ Flask, Python, Bootstrap, YAML ]
-  item9:
-    title: My Resume
-    description: Resume designed in the color palette of the Python brand.
-    github: www
-    img: project_1.png
-    tags: [ Flask, Python, Bootstrap, YAML ]
-  item10:
-    title: My Resume
-    description: Resume designed in the color palette of the Python brand.
-    github: www
-    img: project_1.png
-    tags: [ Flask, Python, Bootstrap, YAML ]
-  item11:
-    title: My Resume
-    description: Resume designed in the color palette of the Python brand.
-    github: www
-    img: project_1.png
-    tags: [ Flask, Python, Bootstrap, YAML ]
-  item12:
-    title: My Resume
-    description: Resume designed in the color palette of the Python brand.
-    github: www
-    img: project_1.png
-    tags: [ Flask, Python, Bootstrap, YAML ]
-  item13:
-    title: My Resume
-    description: Resume designed in the color palette of the Python brand.
-    github: www
-    img: project_1.png
-    tags: [ Flask, Python, Bootstrap, YAML ]
+    img: project_eve.jpg
+    title: Manage Christmas Eve
+    description: >
+      An app to streamline your Christmas Eve and holiday dinner preparations. It generates shopping lists, tracks
+      costs, and outlines a day-by-day plan. Simplifies the process for both homemade and store-bought dishes.
+      Optional features include recipe sources and extended cooking instructions. Future developments may include
+      a basic web version for upcoming holidays and data export/import functionality.
+    github: https://github.com/neon-symeon/ChristmasEve_2023.git
+    tags: [Python]
+    button_view_project: False
+
+  item_last:
+    img: project_last.jpg
+    title: More to Come
+    description: >
+      In the near future, additional projects will be featured here. Several have already been completed and are
+      currently undergoing processing for publication. Stay tuned for more updates.
+    github:
+    tags: []
+    button_view_project: False
+

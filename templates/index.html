@@ -7,7 +7,7 @@
   <meta name="description" content="Szymon Marek's Certified Associate Python Programmer Resume & Portfolio.">
   <meta name="author" content="Szymon Marek <szymon.jan.marek@gmail.com>">
   <!--  Icon in browser's page-->
-  <link rel="shortcut icon" href="static/img/SM_do_CV.jpeg" type="image/x-icon">
+  <link rel="shortcut icon" href="static/img/SM_do_CV_better.jpeg" type="image/x-icon">
   <!--  Title -->
   <title>Szymon Marek's Resume</title>
   <!-- Stylesheets resources -->
@@ -177,11 +177,15 @@
                 </div>
                 <div class="card-footer">
                   {% if item.github %}
-                  <a href="{{item.github}}" class="text-dark" target="_blank">
-                    <i class="fab fa-github-square fa-2x"></i>
-                  </a>
+                    <a href="{{item.github}}" class="float-right" target="_blank">
+                      <i class="fab fa-github-square fa-2x text-dark"></i>
+                    </a>
+                  {% else %}
+                    <i class="fab fa-github-square fa-2x text-light"></i>
                   {% endif %}
-                  <a href="{{item.link}}" class="btn btn-dark float-right" target="_blank">View project</a>
+                  {% if item.button_view_project %}
+                    <a href="{{item.link}}" class="btn btn-dark float-right" target="_blank">View project</a>
+                  {% endif %}
                 </div>
               </div>
             </div>
@@ -194,9 +198,10 @@
     <!-- a'la footer -->
     <div class="container">
       <p class="small float-right">
-        Developed by Szymon Marek based on
-        <a href="https://startbootstrap.com/theme/resume#google_vignette" target="_blank">The MIT License</a>. The YAML
-        file structure - <a href="https://github.com/RodolfoFerro" target="_blank">Rodolfo Ferro</a>.
+        Developed by Szymon Marek, built upon the original
+        <a href="https://startbootstrap.com/theme/resume#google_vignette" target="_blank">The MIT License</a>
+        with an update by
+        <a href="https://github.com/RodolfoFerro" target="_blank">Rodolfo Ferro</a>.
       </p>
     </div>
   </div>
