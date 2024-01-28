@@ -3,6 +3,7 @@ import oyaml as yaml
 import datetime
 
 app = Flask(__name__)
+app.config['STATIC_URL'] = '/static'
 # app.config['JSON_SORT_KEYS'] = False
 
 
@@ -22,4 +23,4 @@ def testy():
     return render_template('idx_testy.html', data=website_data, year=year)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(debug=True)

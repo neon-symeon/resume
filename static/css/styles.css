@@ -295,8 +295,16 @@ a.text-dark:hover, a.text-dark:focus {
   color: #ffde57 !important;
 }
 
-.fab fa-github fa-2x:hoover {
+.hover-badge:hover {
+    background: #4584b6;
+}
+
+/* .fab fa-github fa-2x:hover {
   color: #ffde57;
   background-color: #646464;
   border-color: #ffde57;
+} */
+
+.enlarge-photo-hover:hover {
+    transform: scale(1.02);
 }
