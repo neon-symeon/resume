@@ -19,8 +19,8 @@ venv/
 docs/_build/
 
 # Sandbox
-takietam.py
-templates/idx_testy.html
+tmp/takietam.py
+tmp/idx_testy.html
 
 # IDE files (PyCharm)
 .idea/

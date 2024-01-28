@@ -1,0 +1,69 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Wspólne elementy head -->
+    <!--  Title -->
+    <title>Szymon Marek's Resume</title>
+    <!--  Meta data -->
+    <meta charset="utf-8">
+    <meta name="description" content="Szymon Marek's Certified Associate Python Programmer Resume & Portfolio.">
+    <meta name="author" content="Szymon Marek <szymon.jan.marek@gmail.com>">
+    <!--  Icon in browser's page-->
+    <link rel="shortcut icon" href="static/img/SM_do_CV.jpeg" type="image/x-icon">
+    <!-- Stylesheets resources -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+    <!--  Bootstrap's mobile first strategy-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!--  Js needs this -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- Bootstrap and jQuery scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Inne elementy head -->
+    {% block additional_head %}{% endblock %}
+</head>
+<body>
+  <!-- Treść strony -->
+  {% block content %}{% endblock %}
+  <!-- a'la footer -->
+    <div class="container">
+      <p class="small float-right">
+        Developed by Szymon Marek based on
+        <a href="https://startbootstrap.com/theme/resume#google_vignette" target="_blank">The MIT License</a>
+      </p>
+    </div>
+  </div>
+  <hr class="m-0">
+  <!-- Bootstrap core JavaScript -->
+  <script src="static/vendor/jquery/jquery.min.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="static/js/resume.min.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="static/vendor/jquery/jquery.min.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="static/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- finally -->
+  <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

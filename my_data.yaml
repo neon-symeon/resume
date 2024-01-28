@@ -13,9 +13,9 @@ profile:
     campaign attribution), resulting in a doubling of the effectiveness of TV campaigns. During my time at KEINO
     advertising agency in 2021, I created an Order Management System using DAX (Data Analysis Expressions).
     
-    In the realm of financial market analysis (2013-2017), I developed tools in MQL (similar to SQL) to gain insights
-    into the rate of price change over specific periods. These tools proved invaluable for traders and analysts in
-    identifying potential buying or selling opportunities.
+    In the realm of financial market analysis (2013-2017), I developed tools in MQL to gain insights into the rate of
+    price change over specific periods. These tools proved valuable for traders and analysts in identifying potential
+    buying or selling opportunities.
     
     My passion lies in working with data, uncovering insights hidden in-between rows. I firmly believe that
     everything in the Universe follows the path of least resistance, determined by an underlying and often unseen
@@ -221,17 +221,17 @@ non_icon_skills:
   - DAX
   - VBA
   - MQL
-  - Jupyter Nobebook & Colab
+  - jupyter & Colab
 
 
 # Projects section
 projects:
   item1:
     title: My Resume
-    description: Resume designed in the color palette of the Python brand.
+    description: This resume designed in the color palette of the Python brand.
     github:
     img: project_1.png
-    tags: [Flask, Python, Bootstrap, YAML]
+    tags: [Python, Flask, Bootstrap, YAML]
   item2:
     title: My Resume
     description: Resume designed in the color palette of the Python brand.
