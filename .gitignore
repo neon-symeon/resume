@@ -22,6 +22,7 @@ docs/_build/
 tmp/
 tmp/takietam.py
 tmp/idx_testy.html
+tmp/base.html
 
 # IDE files (PyCharm)
 .idea/
