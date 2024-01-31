@@ -19,6 +19,7 @@ venv/
 docs/_build/
 
 # Sandbox
+tmp/
 tmp/takietam.py
 tmp/idx_testy.html
 
