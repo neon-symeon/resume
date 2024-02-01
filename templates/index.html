@@ -43,7 +43,13 @@
       </span>
     </a>
     <!-- navbar/buttons -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -53,6 +59,7 @@
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://www.credly.com/users/szymon-jan-marek/badges" target="_blank" title="visit my profile on credly.com">Certificates</a></li>
       </ul>
     </div>
   </nav>
@@ -69,12 +76,18 @@
           <a class="super-hover" href="tel:{{data.profile.phone}}">{{data.profile.phone}}</a>  ·
           <a class="super-hover" href="mailto:{{data.profile.email}}">{{data.profile.email}}</a>
         </div>
-        <p class="lead mb-5">{{ data.profile.description }}</p>
+          <p class="lead mb">{{data.profile.description1}}</p>
+          <p class="lead mb">{{data.profile.description2}}</p>
+          <p class="lead mb-5">{{data.profile.description3}}</p>
         <div class="social-icons">
-          <div class="social-icons">
+          <div class="mb-5 social-icons">
             {% for key, link in data.social.items() %}
               {% if link %}
-                <a class="social-icon" href="{{link}}" target="_blank"><i class="fab fa-{{key}}"></i></a>
+                {% if key == 'website' %}
+                  <a class="social-icon" href="{{link}}" target="_blank" title={{link}}><i class="fa-solid fa-globe"></i></a>
+                {% else %}
+                  <a class="social-icon" href="{{link}}" target="_blank" title={{link}}><i class="fab fa-{{key}}"></i></a>
+                {% endif %}
               {% endif %}
             {% endfor %}
           </div>
