@@ -7,20 +7,22 @@ profile:
   address: Kraków, ul. Łużycka 42/38
   phone: (48) 602 24 34 81
   email: szymon.jan.marek@gmail.com
-  description1: >
-    I am a Certified Associate Python Programmer, adept Data Analyst, and aspiring Data Scientist. My professional
-    journey began in marketing, where my focus shifted towards precise and mathematical knowledge about how things work.
-  description2: >
-    Notably, for UNICEF in 2020, I developed a custom tool in VBA to measure Direct Response from TV campaigns (DRTV
-    campaign attribution), resulting in a doubling of the effectiveness of TV campaigns. During my time at KEINO
-    advertising agency in 2021, I created an Order Management System using DAX (Data Analysis Expressions).
-    In the realm of financial market analysis (2013-2017), I developed tools in MQL to gain insights into the rate of
-    price change over specific periods. These tools proved valuable for traders and analysts in identifying potential
-    buying or selling opportunities.
-  description3: >
-    My passion lies in working with data, uncovering insights hidden in-between rows. I firmly believe that
-    everything in the Universe follows the path of least resistance, determined by an underlying and often unseen
-    structure. My goal is to become an expert in discovering this structure and, hopefully, shape it to our advantage.
+  description:
+    d1: >
+      After establishing a robust foundation in marketing and advertising, my professional journey led me to embrace
+      a passion deeply rooted in my early years -- coding. This interest has been a consistent thread throughout my diverse
+      marketing career, where my focus evolved towards cultivating algorithmic and analytical skills.
+    d3: >
+      Notably, for UNICEF in 2020, I developed a custom tool in VBA to measure Direct Response from TV campaigns (DRTV
+      campaign attribution), resulting in a doubling of the effectiveness of TV campaigns. During my time at KEINO
+      advertising agency in 2021, I created an Order Management System using DAX (Data Analysis Expressions).
+      In the realm of financial market analysis (2013-2017), I developed tools in MQL to gain insights into the rate of
+      price change over specific periods. These tools proved valuable for traders and analysts in identifying potential
+      buying or selling opportunities.
+    d4: >
+      I am a Certified Associate Python Programmer. Whether immersing myself in backend development or delving into
+      the fascinating realm of data science, my commitment lies in consistently delivering value and applying my
+      diverse skill set to contribute to innovative projects.
 
 
 # Social
